@@ -15,4 +15,4 @@ Hi-> Has Dependency of HiService
 
 MainApp 
 
-Annotations Learned - 	@Configuration,@ComponentScan,@Bean
+Annotations Learned - 	@Configuration,@ComponentScan,@Bean,@Qualifier
