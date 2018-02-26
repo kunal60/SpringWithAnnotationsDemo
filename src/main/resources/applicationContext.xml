@@ -21,13 +21,15 @@
 	</bean>
 
 
-	
 
-<!-- Enable support for AspectJ -->
+
+	<!-- Enable support for AspectJ -->
 
 	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+	<!-- Description of aboove line in MainApp.java -->
 	<bean id="empservimpl" class="com.info.demo3.EmployeeServiceImpl">
-</bean>
+	</bean>
 	<bean id="empaspect" class="com.info.demo3.EmployeeAspect"></bean>
 
 

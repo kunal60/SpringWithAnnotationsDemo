@@ -11,4 +11,16 @@ public class EmployeeServiceImpl implements EmployeeService {
 		System.out.println("One Employee Is addeded");
 	}
 
+	public void afterReturningDemo() {
+		System.out.println("Hello");
+	}
+
+	public void afterAroundDemo() {
+		System.out.println("Kunal");
+	}
+
+	public void afterThrowingDemo() {
+		System.out.println("10/0");
+		System.out.println(10/0);
+	}
 }

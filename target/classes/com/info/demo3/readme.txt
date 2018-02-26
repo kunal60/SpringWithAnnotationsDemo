@@ -1,3 +1,10 @@
+https://www.javatpoint.com/spring-aop-aspectj-annotation-example
+
+1) In demo3, we focused on Spring AOP
+To create an aspect, you need to apply @Aspect annotation on your aspect class and register it
+in applicationContext.xml file.  
+
+
 applicationContext.xml
 **********************
 <!-- Enable support for AspectJ -->
